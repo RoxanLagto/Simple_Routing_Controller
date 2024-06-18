@@ -13,7 +13,7 @@
     </div>
 
     <div class="personal_details" style="margin-left: 50px; color: white">
-        <h1>About Me</h1>
+        <h1>ABOUT ME</h1>
         <p>Name: {{ $name }}</p>
         <p>Address: {{ $address }}</p>
         <p>Phone: {{ $phone }}</p>
