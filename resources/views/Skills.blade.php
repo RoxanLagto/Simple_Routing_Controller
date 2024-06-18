@@ -12,7 +12,7 @@
         <a href="{{ route('hobbies') }}"><button style="padding: 10px; border: none; border-radius: 5px; background-color:white">Hobbies</button></a>
     </div>
 
-    <div class="personal_details" style="margin-left: 50px; color: white">
+    <div class="skills_details" style="margin-left: 50px; color: white">
         <h1>SKILLS</h1>
         <p> {{ $skill1 }}</p>
         <p> {{ $skill2  }}</p>
