@@ -5,6 +5,10 @@ use App\Http\Controllers\SkillsController;
 use App\Http\Controllers\HobbiesController;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
 Route::get('/about',[AboutMeController::class, 'about'])->name('about');
 
 Route::get('/skills',[SkillsController::class, 'skills'])->name('skills');
